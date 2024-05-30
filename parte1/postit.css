@@ -7,6 +7,7 @@
 
 body {
   padding: 4em;
+  background-image: url(https://img.freepik.com/foto-premium/sfondo-di-muro-di-mattoni-rossi_62754-794.jpg);
 }
 .postit {
   min-width: 200px;
@@ -62,4 +63,18 @@ body {
 #secondSect {
   display: flex;
   justify-content: space-around;
+}
+.primo:hover,
+.terzo:hover,
+.settimo:hover,
+.ottavo:hover {
+  scale: 1.4;
+  rotate: 16deg;
+}
+.secondo:hover,
+.quarto:hover,
+.quinto:hover,
+.sesto:hover {
+  scale: 1.4;
+  rotate: -16deg;
 }
