@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  padding: 4em;
+}
+.postit {
+  min-width: 200px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Indie Flower";
+  box-shadow: inset 0px -14px 33px -7px rgba(149, 149, 149, 0.58);
+}
+.postit h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.primo {
+  background-color: #efefbb;
+  transform: skew(-1deg, -3deg);
+}
+.secondo {
+  background-color: #c5f2c7;
+  transform: skew(-4deg, 5deg);
+}
+.terzo {
+  background-color: #c0c1e7;
+  transform: skew(5deg, -7deg);
+}
+.quarto {
+  background-color: #efefbb;
+  transform: skew(-10deg, 10deg);
+}
+#firstSect {
+  display: flex;
+  justify-content: space-around;
+}
